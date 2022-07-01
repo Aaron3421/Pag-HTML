@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de datos</title>
+</head>
+<body style="background-color: grey;">
+  
+  <br>
+  <h1 style="color: blue;">Formulario de Registro</h1>
+        <p>Complete los siguientes datos papra tramitar su solicitud</p>
+        <form action="yaregistrado.html" method="post">
+        <fieldset>
+            <legend>datos personales</legend>
+            <br>
+            <label>Nombre: <input type="text" name="nameclient" id="form-nom"></label>
+            <br>
+            <label>Direccion: <input type="text" name="direccioncliente" id="form-dir"></label>
+            <br>
+            <label>Telefono: <input type="tel" name="telcliente" id="form-tele"></label>
+            <br>
+            <label>Correo electronico: <input type="email" name="emailcliente" id="form-email"></label>
+            <br>
+            <p>Describe entre que calles te ubicas:</p>
+            <br>
+            <textarea name="descr" rows="5" cols="60" maxlength="200" id="form-story" placeholder="Maximo 200 caracteres"></textarea>         
+        </fieldset>
+        <br>
+        <label for="form-pswd">Contrasena:</label>
+        <br>
+        <input type="password" name="pswd" maxlength="12" id="form-pswd">
+        
+
+        <p>Que tipo de suscripcion quieres:</p>
+<ol>
+<li><input type="radio" name="edad"
+value="menos24" checked> Premium</li>
+<li><input type="radio" name="edad"
+value="25-34"> Sub Pro</li>
+<li><input type="radio" name="edad"
+value="35-44"> Basica</li>
+<li><input type="radio" name="edad"
+value="mayor45"> Gratis</li>
+</ol>
+
+<p>Eliga cuales programas desea descargar:</p>
+<ul type="none">
+<li><input type="checkbox" name= " botana" value=
+"Palomitas">Oficce</li>
+<li><input type="checkbox" name= " botana" value=
+“Refrescos"> Visual code </li>
+<li><input type="checkbox" name= " botana" value=
+“Chocolates">XAMPP</li>
+<li><input type="checkbox" name= " botana" value=
+“Nachos“> Adobe XD</li>
+<li><input type="checkbox" name= " botana" value=
+“Dulces">Mysql</li>
+<li><input type="checkbox" name= " botana" value=
+“ICEE“>Virtual Box </li>
+<li><input type="checkbox" name= " botana" value=
+“Agua">Chorme</li>
+</ul>
+<br>
+<label><input type="checkbox" name="termino" value="acepto">acepto los terminos y condiciones</label>
+<br>
+<p><input type="submit" value="enviar">
+  <input type="reset" value="limpiar">
+
+
+
+
+
+
+      </form>
+      <hr>
+
+  
+
+
+
+
+    
+</body>
+</html>
